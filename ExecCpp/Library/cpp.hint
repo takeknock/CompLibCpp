@@ -1,0 +1,2 @@
+#define LIBRARY_API __declspec(dllexport)
+#define LIBRARY_API __declspec(dllimport)
