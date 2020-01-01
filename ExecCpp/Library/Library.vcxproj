@@ -162,11 +162,19 @@
     <None Include="cpp.hint" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="FiniteField\binomial_coefficient_calculator.h" />
+    <ClInclude Include="FiniteField\mod_operators.h" />
     <ClInclude Include="framework.h" />
+    <ClInclude Include="Graph\Edge.h" />
+    <ClInclude Include="Graph\field\dfs_stack.h" />
+    <ClInclude Include="Graph\ShortestPath\FloydWarshall.h" />
+    <ClInclude Include="Graph\StronglyConnectedComponent.h" />
     <ClInclude Include="Library.h" />
+    <ClInclude Include="LongestCommonSequence.h" />
     <ClInclude Include="NumberTheory\Divisors.h" />
     <ClInclude Include="NumberTheory\gcd.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="PrimeEnumeration\sieve_of_eratosthenes.h" />
     <ClInclude Include="PrimeFactorization\SieveOfEratosthenes.h" />
   </ItemGroup>
   <ItemGroup>

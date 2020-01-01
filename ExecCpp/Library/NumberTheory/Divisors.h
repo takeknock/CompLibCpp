@@ -16,3 +16,13 @@ std::unique_ptr<std::set<unsigned long long>> makeDivisors(unsigned long long n)
     }
     return std::make_unique<std::set<unsigned long long>>(res);
 }
+
+long long selectLargestDivisor(long long n) {
+    for (unsigned long long i = sqrt(n) + 1; i >= 1; i--)
+    {
+        if (n % i == 0) {
+            return i;
+        }
+    }
+    return -1LL;
+}
